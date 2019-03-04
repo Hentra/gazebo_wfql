@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+	<world name="default">
+
+		<gui fullscreen='0'>
+			<plugin name='keyboard' filename='libKeyboardGUIPlugin.so'/>
+		</gui>
+
+   		<!-- Ground Plane -->
+	    <include>
+			<uri>model://WaterPlane</uri>
+		</include>
+
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- Flag model  -->
+		<include>
+			<uri>model://Flag</uri>
+		</include>
+
+		<!-- Boat model -->
+		<include>
+			<uri>model://Boat</uri>
+		</include>
+
+	</world>
+</sdf>
