@@ -23,7 +23,7 @@
         <pose frame=''>0 0 0 1.5707 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/henri/gazebo/boat.obj</uri>
+            <uri>boat.obj</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

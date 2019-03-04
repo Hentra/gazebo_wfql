@@ -23,7 +23,7 @@
         <pose frame=''>0 0 0 1.5707 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/henri/gazebo/flag.obj</uri>
+            <uri>flag.obj</uri>
             <scale>0.1 0.1 0.1</scale>
           </mesh>
         </geometry>
